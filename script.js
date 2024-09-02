@@ -25,6 +25,8 @@ securityInput.addEventListener("keydown", event => {
     }
 });
 
+securityInput.value = "45683968";
+
 securityBtn.addEventListener("click", () => {
     if (securityInput.value === "45683968" || securityInput.value === "7233") {
         gsap.to(".security", {
